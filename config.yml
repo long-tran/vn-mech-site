@@ -41,22 +41,22 @@ menu:
       url: /
       weight: 1
 
-    - identifier: archives
-      name: Archives
-      title: Archives
-      url: /posts/
+    - identifier: stabs
+      name: Stabs
+      title: Stabs mods
+      url: /categories/stabs
       weight: 2
 
-    - identifier: categories
-      name: Categories
-      title: Categories
-      url: /categories/
+    - identifier: switches
+      name: Switches
+      title: Switches
+      url: /categories/switches
       weight: 3
 
-    - identifier: tags
-      name: Tags
-      title: Tags
-      url: /tags/
+    - identifier: build
+      name: Build
+      title: Build
+      url: /categories/build
       weight: 4
 
     - identifier: about
@@ -77,7 +77,8 @@ params:
   # Icon Reference: http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
   enableMathJax: true #Enable mathjax support, to use mathematical notations
   highlightjs:
-    langs: ["python", "javascript"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+    langs: ["python", "javascript", "bash"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+    theme: "monokai-sublime"
 
   tag_cloud:
     min: 8
@@ -96,6 +97,9 @@ params:
     books: icon-book-fill
     links: icon-friendship
     about: icon-cup-fill
+    stabs: icon-book-shelf
+    switches: icon-juejin
+    build: icon-youdao-note
 
   # profile
   profile:
