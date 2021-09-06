@@ -1,3 +1,9 @@
 [submodule "themes/kross-hugo"]
 	path = themes/kross-hugo
 	url = https://github.com/themefisher/kross-hugo.git
+[submodule "themes/pure"]
+	path = themes/pure
+	url = https://gitlab.com/mechkey/vn-mech.git
+[submodule "themes/pure-pure"]
+	path = themes/pure-pure
+	url = https://gitlab.com/engg-misc/hugo-pure-theme.git
